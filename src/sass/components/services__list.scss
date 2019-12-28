@@ -1,0 +1,99 @@
+.services__list {
+  @extend %list;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.services__item {
+  position: relative;
+  padding-left: 80px;
+  width: 370px;
+  margin: 0 auto;
+  text-align: left;
+  flex: 0 0 370px;
+  margin-bottom: 96px;
+
+  &::before {
+    content: "";
+    display: inline-block;
+    width: 33px;
+    height: 33px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    position: absolute;
+    top: 0;
+    left: 20px;
+  }
+
+
+  &--alarm::before {
+    background-image: url(../../images/icon/1-ALARM.png);
+
+    @media (min-resolution: 192dpi),
+    (min-resolution: 2dppx) {
+      background-image: url(../../images/icon/1-ALARM@2x.png);
+    }
+  }
+
+  &--line_graph::before {
+    background-image: url(../../images/icon/2-LINE_GRAPH.png);
+
+    @media (min-resolution: 192dpi),
+    (min-resolution: 2dppx) {
+      background-image: url(../../images/icon/2-LINE_GRAPH@2x.png);
+    }
+  }
+
+  &--computer::before {
+    background-image: url(../../images/icon/3-COMPUTER.png);
+
+    @media (min-resolution: 192dpi),
+    (min-resolution: 2dppx) {
+      background-image: url(../../images/icon/3-COMPUTER@2x.png);
+    }
+  }
+
+  &--book::before {
+    background-image: url(../../images/icon/4-BOOK.png);
+
+    @media (min-resolution: 192dpi),
+    (min-resolution: 2dppx) {
+      background-image: url(../../images/icon/4-BOOK@2x.png);
+    }
+  }
+
+  &--home::before {
+    background-image: url(../../images/icon/5-HOME.png);
+
+    @media (min-resolution: 192dpi),
+    (min-resolution: 2dppx) {
+      background-image: url(../../images/icon/5-HOME@2x.png);
+    }
+  }
+
+  &--image::before {
+    background-image: url(../../images/icon/6-IMAGE.png);
+
+    @media (min-resolution: 192dpi),
+    (min-resolution: 2dppx) {
+      background-image: url(../../images/icon/6-IMAGE@2x.png);
+    }
+  }
+}
+
+.services__item-title {
+  margin: 0;
+  margin-bottom: 16px;
+  font-size: 14px;
+  color: $primery-services-color;
+  font-family: $font-stack-regular;
+  text-transform: uppercase;
+}
+
+.services__item-text {
+  margin: 0;
+  font-size: 15px;
+  line-height: 24px;
+  color: $secondary-services-color;
+  font-family: $font-services-text;
+}

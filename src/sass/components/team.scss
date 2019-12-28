@@ -1,0 +1,85 @@
+.team__text {
+  padding: 0 120px;
+  font-size: 15px;
+  line-height: 24px;
+  color: $secondary-services-color;
+  font-family: Roboto-Regular;
+  text-align: center;
+  margin-bottom: 92px;
+}
+
+.team__list {
+  @extend %list;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.team__card {
+  position: relative;
+  flex: 0 0 380px;
+  margin: 0 auto;
+  text-align: left;
+  transition: $primery-transition;
+
+  &:hover .team__hover,
+  &:focus .team__hover {
+    opacity: 1;
+    transform: translate(-10px, -10px);
+    box-shadow: 10px 10px 0 #95e1d3;
+  }
+
+  &:hover .team__card--img {
+    transform: translate(-10px, -10px);
+  }
+}
+
+.team__card--title {
+  margin-top: 30px;
+  margin-bottom: 8px;
+  font-size: 14px;
+  color: $primery-services-color;
+  font-family: $font-stack-regular;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.team__card-text {
+  font-size: 15px;
+  line-height: 24px;
+  color: $secondary-services-color;
+  font-family: $font-taem-card;
+  text-align: center;
+  margin-bottom: 82px;
+}
+
+.team__card--img {
+  transition: $primery-transition;
+}
+
+.team__hover {
+  position: absolute;
+  display: flex;
+  top: 0;
+  width: 380px;
+  height: 470px;
+  z-index: 0;
+  opacity: 0;
+  align-items: center;
+  justify-content: center;
+  transition: $primery-transition;
+}
+
+.overley-team__hover {
+  position: absolute;
+  display: block;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  opacity: 0.9;
+  z-index: 0;
+  cursor: pointer;
+  background-image: linear-gradient(0deg, #f0e290 0%, #e98a89 100%);
+}

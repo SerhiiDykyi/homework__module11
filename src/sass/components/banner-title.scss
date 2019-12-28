@@ -1,0 +1,32 @@
+.banner-title {
+  font-size: 72px;
+  color: $primery-banner-color;
+  font-family: $font-title;
+  text-align: center;
+  margin-bottom: 38px;
+}
+
+.banner-title__mogo {
+  font-size: 150px;
+  line-height: 140px;
+  color: $primery-banner-color;
+  font-family: $font-stack;
+  text-align: center;
+  text-transform: uppercase;
+  margin-bottom: 108px;
+}
+
+.banner-title__button {
+  position: absolute;
+  width: 160px;
+  height: 40px;
+  background-color: $button-color;
+  border: 3px solid $primery-banner-color;
+  font-size: 14px;
+  color: $primery-banner-color;
+  font-family: $font-stack;
+  text-align: center;
+  text-transform: uppercase;
+  left: 50%;
+  transform: translateX(-50%);
+}

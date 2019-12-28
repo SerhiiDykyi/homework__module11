@@ -1,0 +1,56 @@
+.page-footer__container{
+    height: 62px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-top: 1px solid $footer-border-color;
+    text-align: center;
+}
+
+.page-footer__text{
+    font-size: 14px;
+    color: $primery-services-color;
+    font-family: $font-stack-regular;
+}
+
+.page-footer__form{
+    display: flex;
+}
+
+.footer__link{
+    @extend %link;
+    color: $for-after-color;
+}
+
+input[type=text]{
+    margin: 0;
+    padding: 0;
+    width: 230px;
+    height: 40px;
+    background-color: $primery-banner-color;
+    border: 1px solid $input-border-color;
+}
+
+input[type=submit]{
+    margin: 0;
+    padding: 0;
+    font-size: 14px;
+    color: $primery-banner-color;
+    font-family: $font-stack;
+    text-align: center;
+    width: 150px;
+    height: 40px;
+    background-color: $input-bg-color;
+    border: none;
+    text-transform: uppercase;
+}
+
+input::placeholder {
+    margin-left: auto;
+    font-size: 15px;
+    line-height: 24px;
+    color: $inptu-placeholder-color;
+    font-family: $font-taem-card;
+    cursor: pointer;
+    padding-left: 10px;
+}

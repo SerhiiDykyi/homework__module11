@@ -1,0 +1,63 @@
+.page-header {
+  padding-top: 25px;
+  margin-bottom: 174px;
+}
+
+.page-navigation {
+  @extend %list;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: space-between;
+}
+
+.site-logo {
+  @extend %link;
+  font-size: 30px;
+  color: $primery-banner-color;
+  font-family: "Montserrat-bold";
+  align-items: center;
+}
+
+.site-navigation {
+  @extend %list;
+  display: flex;
+  margin: 0;
+  padding-bottom: 4px;
+  max-width: 490px;
+  width: 100%;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+
+.site-navigation__link {
+  @extend %link;
+  font-size: 14px;
+  color: $primery-banner-color;
+  font-family: $font-stack-regular;
+  text-transform: uppercase;
+  cursor: pointer;
+  transition: $primery-transition;
+
+  &:hover,
+  &:focus {
+    color: $primery-hover-color;
+    border-bottom: 3px solid $primery-hover-color;
+    padding-bottom: 12px;
+    transition: $primery-transition;
+  }
+}
+
+.icon-logo_svg {
+  width: 18px;
+  height: 18px;
+}
+
+.menu__icon {
+  fill: $primery-banner-color;
+  transition: $primery-transition;
+}
+
+.site-navigation__svg:hover .menu__icon {
+  fill: $primery-hover-color;
+  transition: fill $primery-transition;
+}
