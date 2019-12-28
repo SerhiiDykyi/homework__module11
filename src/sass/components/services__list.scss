@@ -29,8 +29,7 @@
   &--alarm::before {
     background-image: url(../../images/icon/1-ALARM.png);
 
-    @media (min-resolution: 192dpi),
-    (min-resolution: 2dppx) {
+    @media (min-resolution: 192dpi), (min-resolution: 2dppx) {
       background-image: url(../../images/icon/1-ALARM@2x.png);
     }
   }
@@ -38,8 +37,7 @@
   &--line_graph::before {
     background-image: url(../../images/icon/2-LINE_GRAPH.png);
 
-    @media (min-resolution: 192dpi),
-    (min-resolution: 2dppx) {
+    @media (min-resolution: 192dpi), (min-resolution: 2dppx) {
       background-image: url(../../images/icon/2-LINE_GRAPH@2x.png);
     }
   }
@@ -47,8 +45,7 @@
   &--computer::before {
     background-image: url(../../images/icon/3-COMPUTER.png);
 
-    @media (min-resolution: 192dpi),
-    (min-resolution: 2dppx) {
+    @media (min-resolution: 192dpi), (min-resolution: 2dppx) {
       background-image: url(../../images/icon/3-COMPUTER@2x.png);
     }
   }
@@ -56,8 +53,7 @@
   &--book::before {
     background-image: url(../../images/icon/4-BOOK.png);
 
-    @media (min-resolution: 192dpi),
-    (min-resolution: 2dppx) {
+    @media (min-resolution: 192dpi), (min-resolution: 2dppx) {
       background-image: url(../../images/icon/4-BOOK@2x.png);
     }
   }
@@ -65,8 +61,7 @@
   &--home::before {
     background-image: url(../../images/icon/5-HOME.png);
 
-    @media (min-resolution: 192dpi),
-    (min-resolution: 2dppx) {
+    @media (min-resolution: 192dpi), (min-resolution: 2dppx) {
       background-image: url(../../images/icon/5-HOME@2x.png);
     }
   }
@@ -74,8 +69,7 @@
   &--image::before {
     background-image: url(../../images/icon/6-IMAGE.png);
 
-    @media (min-resolution: 192dpi),
-    (min-resolution: 2dppx) {
+    @media (min-resolution: 192dpi), (min-resolution: 2dppx) {
       background-image: url(../../images/icon/6-IMAGE@2x.png);
     }
   }
