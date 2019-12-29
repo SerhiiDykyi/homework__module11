@@ -2,13 +2,13 @@
   position: relative;
   margin: 0 auto;
   height: 1000px;
-  background-image: url(../../images/banner-img.png);
+  background-image: url(../images/banner-img.png);
   margin-bottom: 46px;
   background-size: cover;
   background-repeat: no-repeat;
 
   @media (min-resolution: 192dpi), (min-resolution: 2dppx) {
-    background-image: url(../../images/banner-img@2x.png);
+    background-image: url(../images/banner-img@2x.png);
   }
 }
 
